@@ -1,0 +1,4 @@
+rmmod PIOModule.ko
+rmmod DisplayModule.ko
+rmmod MotorModule.ko
+rmmod AcelModule.ko

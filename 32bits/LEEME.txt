@@ -1,0 +1,19 @@
+LEEME
+
+Para ejecutar este programa en la placa altera, se ha creado un ejecutable instalador y desisntalador de drivers.
+Para poder ejecutar el programa seguir los siguientes pasos.
+
+	1. ejecutar make
+		- Se crearán los ficheros "*.ko"
+
+	2. Ejecutar "./install_modules_altera"
+		- Instala los modulos sin necesidad de escribirlos
+
+	3. Compilar el menu con la librería math.h
+		- gcc -o menu menu.c -lm
+
+	4. Ejecutar "./menu"
+		- Inicialización main
+
+	5. Ejecutar "./remove_modules_altera"
+			- Desistalar modulos automáticamente
